@@ -19,7 +19,7 @@
      ```
         roslaunch rplidar_ros recorded.launch
      ```
-- Se invece si vuole solo riprodurre la registrazione senza l'utilizzo di rviz, al posto di recorded.launch, lanciare  :
+- Se invece si vuole solo riprodurre la registrazione senza l'utilizzo di rviz, al posto di 'recorded.launch', lanciare  :
      ```
         roscore 
      ```
@@ -35,16 +35,23 @@
 trovarli nella stessa cartella di README.md , o scaricarli come segue :
      ```
         ~/catkin_ws/src:
-        git clone AGGIUNGI DA UBUNTU
-        git clone AGGIUNGI DA UBUNTU
+        git clone https://github.com/Slamtec/rplidar_ros.git
+        git clone https://github.com/IntelRealSense/realsense-ros.git
      ```
+- Per il pacchetto rplidar_ros, aggiungere nel file di launch rplidar_s1.launch il seguente :
+     ```
+     <node pkg="tf" type="static_transform_publisher" name="map_laser_broadcaster" args="0 0 0 0 3.14 3.14 camera_link laser 100" />
+     ```
+- Per il pacchetto realsense2_camera, mettere a 'true' il parametro "enable_pointcloud" e "ordered_pc" del file di launch rs_camera.launch.
+- Aggiungere nella cartella 'launch' di rplidar_ros, il file recorded.launch presente nella cartella 'ros' di drone_vineyard e il file exp_cfg.rviz nella cartella 'rviz' di rplidar_ros.
+- Da terminale ritornare nel catkin workspace ed eseguire catkin_make.
 - Dopodichè posizionarsi da terminale nella cartella 'bagfiles' del proprio catkin wokspace, ove si vogliono salvare le registrazione. Quindi lanciare i comandi 
      ```
         ~/catkin_ws/bagfiles:
 	roslaunch realsense2_camera rs_camera.launch
 	roslaunch rplidar_ros rplidar_s1.launch
 	roslaunch rplidar_ros recorded.launch
-	rosbag record <bagfilename.bag>
+	rosbag record -O <bagfilename.bag>
      ```
 ( L'esecuzione di 'recorded.launch' è facoltativa e al solo scopo di essere di supporto durante la registrazione.)
 
