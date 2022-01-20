@@ -49,7 +49,7 @@ trovarli nella stessa cartella di README.md , o scaricarli come segue :
 ( L'esecuzione di 'recorded.launch' è facoltativa e al solo scopo di essere di supporto durante la registrazione.)
 
 ## 3) Analisi dati su MATLAB
-- Scaricare la cartella drone_vineyard se non lo si è fatto precedentemente. 
+- Scaricare la cartella drone_vineyard se non lo si è fatto precedentemente. (https://github.com/fvergara39/drone_vineyard.git)
 - Per riprodurre i risultati mostrati nei lucidi, utilizzare i dati in scanData.mat e pointData.mat. salvati nella cartella 'data'.
 - Qualora si volessero usare altri dati sperimentali, aprire il file 'im_rosbag' nella cartella 'utilities' e modificare il percorso del bagfile
 che si vuole utilizzare. Quindi eseguire. 
