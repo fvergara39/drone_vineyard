@@ -76,7 +76,7 @@ che si vuole utilizzare. Quindi eseguire.
  geomMethod = 1 se si vuole usare il metodo geometrico ; settare geomMethod = 0 se si vuole usare il metodo con kmeans.
 
 - Se durante la computazione, oltre alla visualizzazione dei dati già allineati all'orizzonte, si vogliono plottare anche i dati originali, cambiare il valore 
-della variabile drawPlot nello script <metodo>_positionCheck.m e settarla a 1.
+della variabile drawPlot settarla a 1.
 	
 	Per maggiori dettagli, si rimanda ai lucidi presenti nella cartella drone_vineyard.
 	Nella cartella utilities_old sono state lasciate delle funzioni create ma che risultano non più utili per le decisioni algoritmiche esposte nei lucidi.
