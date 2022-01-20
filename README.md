@@ -32,7 +32,7 @@
 
 ### 2.2) Registrazione di nuovi dati
 - Se si volesse procedere ad una nuova raccolta dati, è opportuno assicurarsi di avere i due pacchetti dei sensori. E' possibile
-trovarli nella stessa cartella di README.md , o scaricarli come segue :
+trovarli nella stessa cartella di README.md , o scaricarli dai seguenti link e seguire le istruzioni dei relativi README.md :
      ```
         ~/catkin_ws/src:
         git clone https://github.com/Slamtec/rplidar_ros.git
