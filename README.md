@@ -79,3 +79,4 @@ che si vuole utilizzare. Quindi eseguire.
 della variabile drawPlot nello script <metodo>_positionCheck.m e settarla a 1.
 	
 	Per maggiori dettagli, si rimanda ai lucidi presenti nella cartella drone_vineyard.
+	Nella cartella utilities_old sono state lasciate delle funzioni create ma che risultano non più utili per le decisioni algoritmiche esposte nei lucidi.
