@@ -52,11 +52,11 @@ e pointData.mat. salvati nella cartella 'data'.
 che si vuole utilizzare. Quindi eseguire. 
 - Eventualmente, modificare il nome con cui vengono salvate le strutture di dati, in modo da non sovrascrivere quelle preesistenti.
 
-# 3.1) Analisi dati - LiDAR
+### 3.1) Analisi dati - LiDAR
 - Aprire il file main_Lidar.m ed eseguire la prima sezione dello script.
 - E' pssibile modificare il campo di vista su cui si visualizzano i dati, modificando gli angoli in ingresso alla funzione 'scans_profile'. 
 
-# 3.2) Analisi dati - Camera
+### 3.2) Analisi dati - Camera
 - Per riprodurre i risultati ottenuti circa il profilo medio dei filari con la Realsense Camera D435i, aprire il file main_Camera.m ed eseguire.
 - Se si vuole osservare come varia la Pointcloud3D durante la registrazione, eseguire show_pclouds.m
 
