@@ -9,7 +9,7 @@
 * [5. Organizzazione cartella MATLAB](#5-organizzazione-cartella-matlab)
 
 ## 1) Requisiti
-- Per poter riprodurre i bagfiles bisogna operare sul sistema operativo Ubuntu. 
+- Per poter riprodurre i bagfiles si può operare sul sistema operativo Ubuntu. 
 - Se si volesse procedere ad una nuova raccolta dati, è necessario avere a disposizione una porta USB3 per il collegamento della camera Intel Realsense.
 - NB. La registrazione è stata effettuata su Ubuntu 18.04 e ROSDistro Melodic. per eventuali problemi di compatibilità tra i dispositivi e la ROSDistro, consultare la documentazione ufficiale dei sensori.
 - Per l'analisi dei dati e la stima della posizione, è stato usato MATLAB 2021b.
