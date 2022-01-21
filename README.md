@@ -5,7 +5,8 @@
 * [1. Requisiti](#1-requisiti)
 * [2. Registrazione e riproduzione dei dati](#2-registrazione-e-riproduzione-dei-dati)
 * [3. Analisi dati](#3-analisi-dati)
-* [4. Controllo](#3-controllo)
+* [4. Controllo](#4-controllo)
+* [5. Organizzazione cartella MATLAB](#5-organizzazione-cartella-matlab)
 
 ## 1) Requisiti
 - Per poter riprodurre i bagfiles bisogna operare sul sistema operativo Ubuntu. 
@@ -79,4 +80,12 @@ che si vuole utilizzare. Quindi eseguire.
 della variabile drawPlot settarla a 1.
 	
 	Per maggiori dettagli, si rimanda ai lucidi presenti nella cartella drone_vineyard.
-	Nella cartella utilities_old sono state lasciate delle funzioni create ma che risultano non più utili per le decisioni algoritmiche esposte nei lucidi.
+
+## 5) Organizzazione cartella MATLAB
+- 'utilities' : contiene tutte le funzioni utilizzate 
+- 'utilities_old' : contiene le restanti funzioni create ma non utilizzate per via di un cambio di strategia nell'impplementazione dell'algoritmo
+- 'data': contiene i dati estratti dai topics utilizzati
+- 'figures' : vi sono state salvate le figure rilevanti mostrate anche nei lucidi
+- 'animations' : contiene i video mostrati nei lucidi
+- 'bagfiles_vigneto' : contiene il bagfile analizzato
+- Fuori da ogni altra cartella, vengono lasciati gli script principali
